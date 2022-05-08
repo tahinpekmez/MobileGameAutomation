@@ -1,0 +1,204 @@
+# Created at 2021-08-31T02:10:43.921
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-08-31T02:10:47.796
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:10:49.843
+Unexpected IOException with stream: AltUnityServer not running on port 13000,retrying (timing out in 55 secs)...
+
+
+# Created at 2021-08-31T02:10:54.859
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:10:56.906
+Unexpected IOException with stream: AltUnityServer not running on port 13000,retrying (timing out in 50 secs)...
+
+
+# Created at 2021-08-31T02:11:01.921
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:11:03.984
+Unexpected IOException with stream: AltUnityServer not running on port 13000,retrying (timing out in 45 secs)...
+
+
+# Created at 2021-08-31T02:11:08.999
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:11:11.062
+Unexpected IOException with stream: AltUnityServer not running on port 13000,retrying (timing out in 40 secs)...
+
+
+# Created at 2021-08-31T02:11:16.077
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:11:18.093
+Unexpected IOException with stream: AltUnityServer not running on port 13000,retrying (timing out in 35 secs)...
+
+
+# Created at 2021-08-31T02:11:23.096
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:11:23.096
+Unexpected IOException with stream: sent: 1630365083096;getServerVersion&
+
+
+# Created at 2021-08-31T02:11:23.221
+Unexpected IOException with stream: response: 1.6.4
+
+
+# Created at 2021-08-31T02:11:23.252
+Unexpected IOException: 5,1,ZulaTest,testMainPageLoadedCorrectly(ZulaTest),ZulaTest,null,null
+
+
+# Created at 2021-08-31T02:11:23.252
+Unexpected IOException with stream: Waiting for element where name contains //LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName....
+
+
+# Created at 2021-08-31T02:11:23.252
+Unexpected IOException with stream: sent: 1630365083252;findObject;//LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:11:23.299
+Unexpected IOException with stream: response: {"name":"Text_PlayerName","id":-22538,"x":457,"y":900,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":456.583,"worldY":900.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}
+
+
+# Created at 2021-08-31T02:11:23.362
+Unexpected IOException with stream: sent: 1630365083362;getText;{"name":"Text_PlayerName","id":-22538,"x":457,"y":900,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":456.583,"worldY":900.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}&
+
+
+# Created at 2021-08-31T02:11:23.424
+Unexpected IOException with stream: response: Guest-7475
+
+
+# Created at 2021-08-31T02:11:23.424
+Unexpected IOException: 8,1,ZulaTest,testMainPageLoadedCorrectly(ZulaTest),null,expected [Guest-0962] but found [Guest-7475],null,expected [Guest-0962] but found [Guest-7475],ZulaTest.testMainPageLoadedCorrectly:100 expected [Guest-0962] but found [Guest-7475],java.lang.AssertionError: expected [Guest-0962] but found [Guest-7475]\000A\0009at ZulaTest.testMainPageLoadedCorrectly(ZulaTest.java:100)\000A
+
+
+# Created at 2021-08-31T02:11:23.440
+Unexpected IOException with stream: sent: 1630365083424;getPNGScreenshot&
+
+
+# Created at 2021-08-31T02:11:23.455
+Unexpected IOException with stream: response: Ok
+
+
+# Created at 2021-08-31T02:11:35.281
+Unexpected IOException with stream: response: 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
+
+# Created at 2021-08-31T02:11:35.281
+Unexpected IOException with stream: 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[...]
+
+
+# Created at 2021-08-31T02:11:36.016
+Unexpected IOException with stream: Closing connection with server.
+
+
+# Created at 2021-08-31T02:11:36.016
+Unexpected IOException with stream: sent: 1630365096016;closeConnection&
+
+
+# Created at 2021-08-31T02:11:37.078
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:11:37.078
+Unexpected IOException with stream: sent: 1630365097078;getServerVersion&
+
+
+# Created at 2021-08-31T02:11:37.094
+Unexpected IOException with stream: response: 1.6.4
+
+
+# Created at 2021-08-31T02:11:37.094
+Unexpected IOException with stream: sent: 1630365097094;loadScene;Main;true&
+
+
+# Created at 2021-08-31T02:11:37.125
+Unexpected IOException with stream: response: Ok
+
+
+# Created at 2021-08-31T02:11:37.391
+Unexpected IOException with stream: response: Scene Loaded
+
+
+# Created at 2021-08-31T02:11:37.406
+Unexpected IOException: 5,1,MainMenuTest,TestMainPageLoadedCorrectly(MainMenuTest),MainMenuTest,null,null
+
+
+# Created at 2021-08-31T02:11:37.406
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:11:37.406
+Unexpected IOException with stream: sent: 1630365097406;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:11:37.516
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:11:37.516
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:11:38.022
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:11:38.022
+Unexpected IOException with stream: sent: 1630365098022;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:11:38.038
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:11:38.038
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:11:38.554
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:11:38.554
+Unexpected IOException with stream: sent: 1630365098554;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:11:38.554
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:11:38.554
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:11:39.069
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:11:39.069
+Unexpected IOException with stream: sent: 1630365099069;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:11:39.069
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:11:39.069
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+

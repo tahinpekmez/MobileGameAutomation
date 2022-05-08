@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Web Suite</th></tr>
+<tr><td><a href="#t0">ZulaTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">795,142</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Web Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ZulaTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.ZulaTest</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1630748271064</td><td rowspan="1">3</td></tr><tr><th colspan="4">ZulaTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ZulaTest</td><td><a href="#m1">gamePlayTest</a></td><td rowspan="1">1630747531309</td><td rowspan="1">739742</td></tr><tr><th colspan="4">ZulaTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.ZulaTest</td><td><a href="#m2">controlGoldPrices</a></td><td rowspan="1">1630747524715</td><td rowspan="1">6588</td></tr><tr class="passedeven"><td><a href="#m3">controlOffers</a></td><td rowspan="1">1630747516874</td><td rowspan="1">7835</td></tr><tr class="passedeven"><td><a href="#m4">testMainPageLoadedCorrectly</a></td><td rowspan="1">1630747509528</td><td rowspan="1">7339</td></tr></tbody>
+</table>
+<h2>ZulaTest</h2><h3 id="m0">tests.ZulaTest#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=gamePlayTest status=FAILURE method=ZulaTest.gamePlayTest()[pri:3, instance:tests.ZulaTest@49993335] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">ro.altom.altunitytester.altUnityTesterExceptions.ConnectionException: java.net.SocketException: Connection reset
+	at ro.altom.altunitytester.Commands.AltBaseCommand.recvall(AltBaseCommand.java:35)
+	at ro.altom.altunitytester.Commands.GetPNGScreenshotCommand.Execute(GetPNGScreenshotCommand.java:26)
+	at ro.altom.altunitytester.AltUnityDriver.getPNGScreeshot(AltUnityDriver.java:540)
+	at utilities.ExtentReportUtilities.testScreenshot(ExtentReportUtilities.java:16)
+	at utilities.BaseTest.tearDown(BaseTest.java:85)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:154)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.DataInputStream.read(DataInputStream.java:100)
+	at ro.altom.altunitytester.Commands.AltBaseCommand.recvall(AltBaseCommand.java:33)
+	... 32 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.ZulaTest#gamePlayTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode still not found after 10.0 seconds
+	at ro.altom.altunitytester.Commands.FindObject.AltWaitForObject.Execute(AltWaitForObject.java:42)
+	at ro.altom.altunitytester.AltUnityDriver.waitForObject(AltUnityDriver.java:498)
+	at pages.ZulaMatchResultPage.setGameModeText(ZulaMatchResultPage.java:33)
+	at tests.ZulaTest.gamePlayTest(ZulaTest.java:101)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.ZulaTest#controlGoldPrices</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.ZulaTest#controlOffers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.ZulaTest#testMainPageLoadedCorrectly</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

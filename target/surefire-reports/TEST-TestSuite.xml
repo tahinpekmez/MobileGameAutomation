@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="796.624" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bt/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.jar:/Users/bt/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar:/Users/bt/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar:/Users/bt/Downloads/son versiyon/target/test-classes:/Users/bt/Downloads/son versiyon/target/classes:/Users/bt/.m2/repository/com/altom/altunitytester-java-client/1.6.4/altunitytester-java-client-1.6.4.jar:/Users/bt/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/bt/.m2/repository/org/projectlombok/lombok/1.18.2/lombok-1.18.2.jar:/Users/bt/.m2/repository/com/github/stefanbirkner/system-lambda/1.2.0/system-lambda-1.2.0.jar:/Users/bt/.m2/repository/io/appium/java-client/7.5.1/java-client-7.5.1.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bt/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bt/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bt/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bt/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bt/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bt/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bt/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bt/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bt/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bt/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bt/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/bt/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/bt/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bt/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/bt/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/bt/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/bt/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/bt/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/bt/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/bt/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/bt/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/bt/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/bt/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-aop/5.3.4/spring-aop-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-core/5.3.4/spring-core-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-jcl/5.3.4/spring-jcl-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-expression/5.3.4/spring-expression-5.3.4.jar:/Users/bt/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/bt/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/bt/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/bt/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/bt/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/bt/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar:/Users/bt/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/bt/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/bt/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/bt/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/bt/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar:/Users/bt/.m2/repository/org/apache/maven/surefire/surefire-testng/2.22.2/surefire-testng-2.22.2.jar:/Users/bt/.m2/repository/org/apache/maven/surefire/common-java5/2.22.2/common-java5-2.22.2.jar:/Users/bt/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.2/surefire-testng-utils-2.22.2.jar:/Users/bt/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.2/surefire-grouper-2.22.2.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="TR"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/bt/Downloads/son versiyon/target/surefire 2021-09-04T12-24-34_436-jvmRun1 surefire6253344099809218362tmp surefire_06757101275575463229tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/bt/Downloads/son versiyon/target/test-classes:/Users/bt/Downloads/son versiyon/target/classes:/Users/bt/.m2/repository/com/altom/altunitytester-java-client/1.6.4/altunitytester-java-client-1.6.4.jar:/Users/bt/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/bt/.m2/repository/org/projectlombok/lombok/1.18.2/lombok-1.18.2.jar:/Users/bt/.m2/repository/com/github/stefanbirkner/system-lambda/1.2.0/system-lambda-1.2.0.jar:/Users/bt/.m2/repository/io/appium/java-client/7.5.1/java-client-7.5.1.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bt/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bt/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bt/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bt/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bt/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bt/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bt/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bt/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bt/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bt/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bt/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bt/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/bt/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/bt/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bt/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/bt/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/bt/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/bt/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/bt/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/bt/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/bt/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/bt/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/bt/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/bt/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-aop/5.3.4/spring-aop-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-core/5.3.4/spring-core-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-jcl/5.3.4/spring-jcl-5.3.4.jar:/Users/bt/.m2/repository/org/springframework/spring-expression/5.3.4/spring-expression-5.3.4.jar:/Users/bt/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/bt/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/bt/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/bt/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/bt/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/bt/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar:/Users/bt/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/bt/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/bt/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/bt/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/bt/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bt"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/>
+    <property name="testng.dtd.http" value="true"/>
+    <property name="basedir" value="/Users/bt/Downloads/son versiyon"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="bt"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/bt/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/74/55vxtnls4h1cfds5fqg_kd2h0000gp/T/"/>
+    <property name="idea.version" value="2021.2"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="/Users/bt/Downloads/son versiyon"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/bt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="/Users/bt/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testMainPageLoadedCorrectly" classname="tests.ZulaTest" time="7.342"/>
+  <testcase name="controlOffers" classname="tests.ZulaTest" time="7.834"/>
+  <testcase name="controlGoldPrices" classname="tests.ZulaTest" time="6.591"/>
+  <testcase name="gamePlayTest" classname="tests.ZulaTest" time="739.756">
+    <failure message="Element //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode still not found after 10.0 seconds" type="ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException">ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode still not found after 10.0 seconds
+	at tests.ZulaTest.gamePlayTest(ZulaTest.java:101)
+</failure>
+    <system-out><![CDATA[Waiting for element where name contains //LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName....
+sent: 1630747531311;findObject;//LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName;NAME;//;true&
+response: {"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.859222,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}
+sent: 1630747531340;getText;{"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.85922,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}&
+response: Guest-0962
+sent: 1630747531397;tapObject;{"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.85922,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540};1&
+response: {"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.859222,"worldY":720.0,"worldZ":0.0,"idCamera":-49342,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}
+Waiting for element where name contains //PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Top Canvas/SafeArea/Settings Panel Buttons/Viewport/Content/Graphic Panel Button/Text....
+sent: 1630747534507;findObject;//PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Top Canvas/SafeArea/Settings Panel Buttons/Viewport/Content/Graphic Panel Button/Text;NAME;//;true&
+response: {"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210}
+sent: 1630747534547;getText;{"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210}&
+response: İSTATİSTİKLER
+sent: 1630747534602;tapObject;{"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210};1&
+response: {"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210}
+Waiting for element where name contains //PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Content Canvas/ScrollView_LeftRight/Viewport/Content/StatisticsUIView(Clone)/Panel 1/Matches/Matches/Count....
+sent: 1630747537646;findObject;//PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Content Canvas/ScrollView_LeftRight/Viewport/Content/StatisticsUIView(Clone)/Panel 1/Matches/Matches/Count;NAME;//;true&
+response: {"name":"Count","id":-50824,"x":780,"y":523,"z":0,"mobileY":197,"type":"","enabled":true,"worldX":780.037048,"worldY":522.9811,"worldZ":0.0,"idCamera":14558,"parentId":-50810,"transformParentId":-50810,"transformId":-50826}
+sent: 1630747537689;getText;{"name":"Count","id":-50824,"x":780,"y":523,"z":0,"mobileY":197,"type":"","enabled":true,"worldX":780.03705,"worldY":522.9811,"worldZ":0.0,"idCamera":14558,"parentId":-50810,"transformParentId":-50810,"transformId":-50826}&
+response: 13
+Waiting for element where name contains Close Button....
+sent: 1630747537742;findActiveObjectByName;Close Button;NAME;//;true&
+response: {"name":"Close Button","id":-49240,"x":164,"y":664,"z":0,"mobileY":56,"type":"","enabled":true,"worldX":164.169067,"worldY":663.796631,"worldZ":0.0,"idCamera":14558,"parentId":-49238,"transformParentId":-49238,"transformId":-49242}
+sent: 1630747537748;tapObject;{"name":"Close Button","id":-49240,"x":164,"y":664,"z":0,"mobileY":56,"type":"","enabled":true,"worldX":164.16907,"worldY":663.79663,"worldZ":0.0,"idCamera":14558,"parentId":-49238,"transformParentId":-49238,"transformId":-49242};1&
+response: {"name":"Close Button","id":-49240,"x":164,"y":664,"z":0,"mobileY":56,"type":"","enabled":true,"worldX":164.169067,"worldY":663.796631,"worldZ":0.0,"idCamera":14558,"parentId":-49238,"transformParentId":-49238,"transformId":-49242}
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Ready Button/Text....
+sent: 1630747540788;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Ready Button/Text;NAME;//;true&
+response: {"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.10449,"worldY":40.6799927,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}
+sent: 1630747540830;getText;{"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.1045,"worldY":40.679993,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}&
+response: BAŞLA
+sent: 1630747540887;tapObject;{"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.1045,"worldY":40.679993,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164};1&
+response: {"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.10449,"worldY":40.6799927,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748260966;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748261470;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748261975;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748262478;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748262981;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748263482;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748263988;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748264492;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748264993;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748265496;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748266001;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748266507;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748267012;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748267518;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748268023;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748268528;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748269034;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748269538;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748270040;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748270547;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="tests.ZulaTest" time="739.757">
+    <failure message="java.net.SocketException: Connection reset" type="ro.altom.altunitytester.altUnityTesterExceptions.ConnectionException">ro.altom.altunitytester.altUnityTesterExceptions.ConnectionException: java.net.SocketException: Connection reset
+Caused by: java.net.SocketException: Connection reset
+</failure>
+    <system-out><![CDATA[sent: 1630748271067;getPNGScreenshot&
+]]></system-out>
+  </testcase>
+</testsuite>

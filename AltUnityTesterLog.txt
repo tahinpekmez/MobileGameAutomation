@@ -1,0 +1,206 @@
+Initializing connection to 127.0.0.1:13000
+sent: 1630747508249;getServerVersion&
+response: 1.6.4
+Waiting for element where name contains //LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName....
+sent: 1630747509536;findObject;//LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName;NAME;//;true&
+response: {"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.859222,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}
+sent: 1630747510420;getText;{"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.85922,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}&
+response: Guest-0962
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Button_Weapons/Text....
+sent: 1630747513486;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Button_Weapons/Text;NAME;//;true&
+response: {"name":"Text","id":-28476,"x":291,"y":205,"z":0,"mobileY":515,"type":"","enabled":true,"worldX":291.257,"worldY":204.946671,"worldZ":0.0,"idCamera":14558,"parentId":-28444,"transformParentId":-28444,"transformId":-28478}
+sent: 1630747513532;getText;{"name":"Text","id":-28476,"x":291,"y":205,"z":0,"mobileY":515,"type":"","enabled":true,"worldX":291.257,"worldY":204.94667,"worldZ":0.0,"idCamera":14558,"parentId":-28444,"transformParentId":-28444,"transformId":-28478}&
+response: EKİPMAN
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Container_Misions/DailyHeader/ButtonMissions/Text....
+sent: 1630747513585;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Container_Misions/DailyHeader/ButtonMissions/Text;NAME;//;true&
+response: {"name":"Text","id":-28272,"x":190,"y":509,"z":0,"mobileY":211,"type":"","enabled":true,"worldX":190.451782,"worldY":508.6635,"worldZ":0.0,"idCamera":14558,"parentId":-28264,"transformParentId":-28264,"transformId":-28274}
+sent: 1630747513602;getText;{"name":"Text","id":-28272,"x":190,"y":509,"z":0,"mobileY":211,"type":"","enabled":true,"worldX":190.45178,"worldY":508.6635,"worldZ":0.0,"idCamera":14558,"parentId":-28264,"transformParentId":-28264,"transformId":-28274}&
+response: GÖREVLER
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Ready Button/Text....
+sent: 1630747513652;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Ready Button/Text;NAME;//;true&
+response: {"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.10449,"worldY":40.6799927,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}
+sent: 1630747513664;getText;{"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.1045,"worldY":40.679993,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}&
+response: BAŞLA
+Waiting for element where name contains //LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Settings/Image....
+sent: 1630747513713;findObject;//LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Settings/Image;NAME;//;true&
+response: {"name":"Image","id":-22918,"x":1456,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":1455.75342,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22908,"transformParentId":-22908,"transformId":-22920}
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Button_BlackMarket/Text....
+sent: 1630747513727;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Button_BlackMarket/Text;NAME;//;true&
+response: {"name":"Text","id":-28424,"x":291,"y":265,"z":0,"mobileY":455,"type":"","enabled":true,"worldX":291.257,"worldY":265.319824,"worldZ":0.0,"idCamera":14558,"parentId":-28382,"transformParentId":-28382,"transformId":-28426}
+sent: 1630747513765;getText;{"name":"Text","id":-28424,"x":291,"y":265,"z":0,"mobileY":455,"type":"","enabled":true,"worldX":291.257,"worldY":265.31982,"worldZ":0.0,"idCamera":14558,"parentId":-28382,"transformParentId":-28382,"transformId":-28426}&
+response: MARKET
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Map Parent/Map Image Mask/Image....
+sent: 1630747513815;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Map Parent/Map Image Mask/Image;NAME;//;true&
+response: {"name":"Image","id":-29038,"x":1379,"y":158,"z":0,"mobileY":562,"type":"","enabled":true,"worldX":1379.10449,"worldY":158.400055,"worldZ":0.0,"idCamera":14558,"parentId":-29022,"transformParentId":-29022,"transformId":-29040}
+Waiting for element where name contains //LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Container_Currency/Button_HardCurrency/Image....
+sent: 1630747513829;findObject;//LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Container_Currency/Button_HardCurrency/Image;NAME;//;true&
+response: {"name":"Image","id":-22882,"x":1361,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":1360.87964,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22862,"transformParentId":-22862,"transformId":-22884}
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Button_BlackMarket/Text....
+sent: 1630747516876;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Button_BlackMarket/Text;NAME;//;true&
+response: {"name":"Text","id":-28424,"x":291,"y":265,"z":0,"mobileY":455,"type":"","enabled":true,"worldX":291.257,"worldY":265.319824,"worldZ":0.0,"idCamera":14558,"parentId":-28382,"transformParentId":-28382,"transformId":-28426}
+sent: 1630747516907;getText;{"name":"Text","id":-28424,"x":291,"y":265,"z":0,"mobileY":455,"type":"","enabled":true,"worldX":291.257,"worldY":265.31982,"worldZ":0.0,"idCamera":14558,"parentId":-28382,"transformParentId":-28382,"transformId":-28426}&
+response: MARKET
+sent: 1630747516963;tapObject;{"name":"Text","id":-28424,"x":291,"y":265,"z":0,"mobileY":455,"type":"","enabled":true,"worldX":291.257,"worldY":265.31982,"worldZ":0.0,"idCamera":14558,"parentId":-28382,"transformParentId":-28382,"transformId":-28426};1&
+response: {"name":"Text","id":-28424,"x":-7764,"y":8259,"z":54,"mobileY":-7539,"type":"","enabled":true,"worldX":291.257019,"worldY":265.319824,"worldZ":0.0,"idCamera":14558,"parentId":-28382,"transformParentId":-28382,"transformId":-28426}
+Waiting for element where name contains Button_Back....
+sent: 1630747521151;findActiveObjectByName;Button_Back;NAME;//;true&
+response: {"name":"Button_Back","id":-22456,"x":85,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":84.625,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22428,"transformParentId":-22428,"transformId":-22458}
+Waiting for element where name contains OfferTitleText....
+sent: 1630747521194;findActiveObjectByName;OfferTitleText;NAME;//;true&
+response: {"name":"OfferTitleText","id":-44248,"x":298,"y":620,"z":0,"mobileY":100,"type":"","enabled":true,"worldX":298.276917,"worldY":620.230042,"worldZ":0.0,"idCamera":14558,"parentId":-44220,"transformParentId":-44220,"transformId":-44250}
+sent: 1630747521228;getText;{"name":"OfferTitleText","id":-44248,"x":298,"y":620,"z":0,"mobileY":100,"type":"","enabled":true,"worldX":298.27692,"worldY":620.23004,"worldZ":0.0,"idCamera":14558,"parentId":-44220,"transformParentId":-44220,"transformId":-44250}&
+response: OPTİMUM SİLAH PAKETİ
+Waiting for element where name contains OfferSubtitleText....
+sent: 1630747521290;findActiveObjectByName;OfferSubtitleText;NAME;//;true&
+response: {"name":"OfferSubtitleText","id":-44258,"x":298,"y":552,"z":0,"mobileY":168,"type":"","enabled":true,"worldX":298.276917,"worldY":551.8175,"worldZ":0.0,"idCamera":14558,"parentId":-44220,"transformParentId":-44220,"transformId":-44260}
+sent: 1630747521327;getText;{"name":"OfferSubtitleText","id":-44258,"x":298,"y":552,"z":0,"mobileY":168,"type":"","enabled":true,"worldX":298.27692,"worldY":551.8175,"worldZ":0.0,"idCamera":14558,"parentId":-44220,"transformParentId":-44220,"transformId":-44260}&
+response: 250 ADET NADİR, EFSANEVİ VEYA DESTANSI KART KAZANDIRAN KASA
+Waiting for element where name contains RemainingTime....
+sent: 1630747521387;findActiveObjectByName;RemainingTime;NAME;//;true&
+response: {"name":"RemainingTime","id":-44298,"x":1405,"y":574,"z":0,"mobileY":146,"type":"","enabled":true,"worldX":1405.31018,"worldY":574.3522,"worldZ":0.0,"idCamera":14558,"parentId":-44282,"transformParentId":-44282,"transformId":-44300}
+sent: 1630747521427;getText;{"name":"RemainingTime","id":-44298,"x":1405,"y":574,"z":0,"mobileY":146,"type":"","enabled":true,"worldX":1405.3102,"worldY":574.3522,"worldZ":0.0,"idCamera":14558,"parentId":-44282,"transformParentId":-44282,"transformId":-44300}&
+response: Bitiş: 19g
+Waiting for element where name contains TextCurrency....
+sent: 1630747521491;findActiveObjectByName;TextCurrency;NAME;//;true&
+response: {"name":"TextCurrency","id":-44402,"x":1335,"y":262,"z":0,"mobileY":458,"type":"","enabled":true,"worldX":1335.17163,"worldY":262.140961,"worldZ":0.0,"idCamera":14558,"parentId":-44368,"transformParentId":-44368,"transformId":-44404}
+sent: 1630747521529;getText;{"name":"TextCurrency","id":-44402,"x":1335,"y":262,"z":0,"mobileY":458,"type":"","enabled":true,"worldX":1335.1716,"worldY":262.14096,"worldZ":0.0,"idCamera":14558,"parentId":-44368,"transformParentId":-44368,"transformId":-44404}&
+response: ₺36,99
+Waiting for element where name contains Button_Back....
+sent: 1630747521590;findActiveObjectByName;Button_Back;NAME;//;true&
+response: {"name":"Button_Back","id":-22456,"x":85,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":84.625,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22428,"transformParentId":-22428,"transformId":-22458}
+sent: 1630747521628;tapObject;{"name":"Button_Back","id":-22456,"x":85,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":84.625,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22428,"transformParentId":-22428,"transformId":-22458};1&
+response: {"name":"Button_Back","id":-22456,"x":85,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":84.625,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22428,"transformParentId":-22428,"transformId":-22458}
+Waiting for element where name contains //LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Container_Currency/Button_HardCurrency/Image....
+sent: 1630747524716;findObject;//LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Container_Currency/Button_HardCurrency/Image;NAME;//;true&
+response: {"name":"Image","id":-22882,"x":1361,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":1360.87964,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22862,"transformParentId":-22862,"transformId":-22884}
+sent: 1630747524762;tapObject;{"name":"Image","id":-22882,"x":1361,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":1360.8796,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22862,"transformParentId":-22862,"transformId":-22884};1&
+response: {"name":"Image","id":-22882,"x":1361,"y":681,"z":0,"mobileY":39,"type":"","enabled":true,"worldX":1360.87964,"worldY":680.8937,"worldZ":0.0,"idCamera":14558,"parentId":-22862,"transformParentId":-22862,"transformId":-22884}
+Waiting for element where name contains //LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseBigUIView/Image_BackgroundPrice/Text_Price....
+sent: 1630747527809;findObject;//LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseBigUIView/Image_BackgroundPrice/Text_Price;NAME;//;true&
+response: {"name":"Text_Price","id":-21634,"x":424,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":424.1516,"worldY":129.941711,"worldZ":0.0,"idCamera":14558,"parentId":-21628,"transformParentId":-21628,"transformId":-21636}
+sent: 1630747527836;getText;{"name":"Text_Price","id":-21634,"x":424,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":424.1516,"worldY":129.94171,"worldZ":0.0,"idCamera":14558,"parentId":-21628,"transformParentId":-21628,"transformId":-21636}&
+response: ₺699,99
+Waiting for element where name contains //LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseMediumUIView/Image_BackgroundPrice/Text_Price....
+sent: 1630747527888;findObject;//LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseMediumUIView/Image_BackgroundPrice/Text_Price;NAME;//;true&
+response: {"name":"Text_Price","id":-21750,"x":868,"y":341,"z":0,"mobileY":379,"type":"","enabled":true,"worldX":868.165649,"worldY":340.606934,"worldZ":0.0,"idCamera":14558,"parentId":-21744,"transformParentId":-21744,"transformId":-21752}
+sent: 1630747527929;getText;{"name":"Text_Price","id":-21750,"x":868,"y":341,"z":0,"mobileY":379,"type":"","enabled":true,"worldX":868.16565,"worldY":340.60693,"worldZ":0.0,"idCamera":14558,"parentId":-21744,"transformParentId":-21744,"transformId":-21752}&
+response: ₺349,99
+Waiting for element where name contains //LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseMediumUIView (2)/Image_BackgroundPrice/Text_Price....
+sent: 1630747527990;findObject;//LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseMediumUIView (2)/Image_BackgroundPrice/Text_Price;NAME;//;true&
+response: {"name":"Text_Price","id":-21876,"x":1265,"y":341,"z":0,"mobileY":379,"type":"","enabled":true,"worldX":1265.1803,"worldY":340.606934,"worldZ":0.0,"idCamera":14558,"parentId":-21870,"transformParentId":-21870,"transformId":-21878}
+sent: 1630747528004;getText;{"name":"Text_Price","id":-21876,"x":1265,"y":341,"z":0,"mobileY":379,"type":"","enabled":true,"worldX":1265.1803,"worldY":340.60693,"worldZ":0.0,"idCamera":14558,"parentId":-21870,"transformParentId":-21870,"transformId":-21878}&
+response: ₺134,99
+Waiting for element where name contains //LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseSmallUIView/Image_BackgroundPrice/Text_Price....
+sent: 1630747528054;findObject;//LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseSmallUIView/Image_BackgroundPrice/Text_Price;NAME;//;true&
+response: {"name":"Text_Price","id":-22002,"x":804,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":803.5622,"worldY":129.941711,"worldZ":0.0,"idCamera":14558,"parentId":-21996,"transformParentId":-21996,"transformId":-22004}
+sent: 1630747528066;getText;{"name":"Text_Price","id":-22002,"x":804,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":803.5622,"worldY":129.94171,"worldZ":0.0,"idCamera":14558,"parentId":-21996,"transformParentId":-21996,"transformId":-22004}&
+response: ₺69,99
+Waiting for element where name contains //LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseSmallUIView (2)/Image_BackgroundPrice/Text_Price....
+sent: 1630747528118;findObject;//LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseSmallUIView (2)/Image_BackgroundPrice/Text_Price;NAME;//;true&
+response: {"name":"Text_Price","id":-22128,"x":1066,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":1066.195,"worldY":129.941711,"worldZ":0.0,"idCamera":14558,"parentId":-22122,"transformParentId":-22122,"transformId":-22130}
+sent: 1630747528129;getText;{"name":"Text_Price","id":-22128,"x":1066,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":1066.195,"worldY":129.94171,"worldZ":0.0,"idCamera":14558,"parentId":-22122,"transformParentId":-22122,"transformId":-22130}&
+response: ₺34,99
+Waiting for element where name contains //LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseSmallUIView (3)/Image_BackgroundPrice/Text_Price....
+sent: 1630747528184;findObject;//LobbyStateUIView(Clone)/PurchaseCurrencyPopupUIView/Canvas/SafeArea/GoldPurchaseSmallUIView (3)/Image_BackgroundPrice/Text_Price;NAME;//;true&
+response: {"name":"Text_Price","id":-22254,"x":1329,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":1329.4856,"worldY":129.941711,"worldZ":0.0,"idCamera":14558,"parentId":-22248,"transformParentId":-22248,"transformId":-22256}
+sent: 1630747528197;getText;{"name":"Text_Price","id":-22254,"x":1329,"y":130,"z":0,"mobileY":590,"type":"","enabled":true,"worldX":1329.4856,"worldY":129.94171,"worldZ":0.0,"idCamera":14558,"parentId":-22248,"transformParentId":-22248,"transformId":-22256}&
+response: ₺6,99
+Waiting for element where name contains Button_Close....
+sent: 1630747528252;findActiveObjectByName;Button_Close;NAME;//;true&
+response: {"name":"Button_Close","id":-21534,"x":1496,"y":675,"z":0,"mobileY":45,"type":"","enabled":true,"worldX":1496.489,"worldY":675.36,"worldZ":0.0,"idCamera":14558,"parentId":-21510,"transformParentId":-21510,"transformId":-21536}
+sent: 1630747528260;tapObject;{"name":"Button_Close","id":-21534,"x":1496,"y":675,"z":0,"mobileY":45,"type":"","enabled":true,"worldX":1496.489,"worldY":675.36,"worldZ":0.0,"idCamera":14558,"parentId":-21510,"transformParentId":-21510,"transformId":-21536};1&
+response: {"name":"Button_Close","id":-21534,"x":-8050,"y":4410,"z":271,"mobileY":-3690,"type":"","enabled":true,"worldX":1496.489,"worldY":675.36,"worldZ":0.0,"idCamera":14558,"parentId":-21510,"transformParentId":-21510,"transformId":-21536}
+Waiting for element where name contains //LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName....
+sent: 1630747531311;findObject;//LobbyStateUIView(Clone)/TopBarUIView(Clone)/Canvas_TopBar/SafeArea/Panel_TopBar/Button_Profile/Content/Text_PlayerName;NAME;//;true&
+response: {"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.859222,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}
+sent: 1630747531340;getText;{"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.85922,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}&
+response: Guest-0962
+sent: 1630747531397;tapObject;{"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.85922,"worldY":720.0,"worldZ":0.0,"idCamera":-29680,"parentId":-22534,"transformParentId":-22534,"transformId":-22540};1&
+response: {"name":"Text_PlayerName","id":-22538,"x":381,"y":720,"z":0,"mobileY":0,"type":"","enabled":true,"worldX":380.859222,"worldY":720.0,"worldZ":0.0,"idCamera":-49342,"parentId":-22534,"transformParentId":-22534,"transformId":-22540}
+Waiting for element where name contains //PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Top Canvas/SafeArea/Settings Panel Buttons/Viewport/Content/Graphic Panel Button/Text....
+sent: 1630747534507;findObject;//PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Top Canvas/SafeArea/Settings Panel Buttons/Viewport/Content/Graphic Panel Button/Text;NAME;//;true&
+response: {"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210}
+sent: 1630747534547;getText;{"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210}&
+response: İSTATİSTİKLER
+sent: 1630747534602;tapObject;{"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210};1&
+response: {"name":"Text","id":-49208,"x":997,"y":669,"z":0,"mobileY":51,"type":"","enabled":true,"worldX":996.7047,"worldY":669.1876,"worldZ":0.0,"idCamera":14558,"parentId":-49192,"transformParentId":-49192,"transformId":-49210}
+Waiting for element where name contains //PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Content Canvas/ScrollView_LeftRight/Viewport/Content/StatisticsUIView(Clone)/Panel 1/Matches/Matches/Count....
+sent: 1630747537646;findObject;//PlayerProfileUIView_Low(Clone)/PlayerProfile/Popup Canvas/Content Canvas/ScrollView_LeftRight/Viewport/Content/StatisticsUIView(Clone)/Panel 1/Matches/Matches/Count;NAME;//;true&
+response: {"name":"Count","id":-50824,"x":780,"y":523,"z":0,"mobileY":197,"type":"","enabled":true,"worldX":780.037048,"worldY":522.9811,"worldZ":0.0,"idCamera":14558,"parentId":-50810,"transformParentId":-50810,"transformId":-50826}
+sent: 1630747537689;getText;{"name":"Count","id":-50824,"x":780,"y":523,"z":0,"mobileY":197,"type":"","enabled":true,"worldX":780.03705,"worldY":522.9811,"worldZ":0.0,"idCamera":14558,"parentId":-50810,"transformParentId":-50810,"transformId":-50826}&
+response: 13
+Waiting for element where name contains Close Button....
+sent: 1630747537742;findActiveObjectByName;Close Button;NAME;//;true&
+response: {"name":"Close Button","id":-49240,"x":164,"y":664,"z":0,"mobileY":56,"type":"","enabled":true,"worldX":164.169067,"worldY":663.796631,"worldZ":0.0,"idCamera":14558,"parentId":-49238,"transformParentId":-49238,"transformId":-49242}
+sent: 1630747537748;tapObject;{"name":"Close Button","id":-49240,"x":164,"y":664,"z":0,"mobileY":56,"type":"","enabled":true,"worldX":164.16907,"worldY":663.79663,"worldZ":0.0,"idCamera":14558,"parentId":-49238,"transformParentId":-49238,"transformId":-49242};1&
+response: {"name":"Close Button","id":-49240,"x":164,"y":664,"z":0,"mobileY":56,"type":"","enabled":true,"worldX":164.169067,"worldY":663.796631,"worldZ":0.0,"idCamera":14558,"parentId":-49238,"transformParentId":-49238,"transformId":-49242}
+Waiting for element where name contains //LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Ready Button/Text....
+sent: 1630747540788;findObject;//LobbyStateUIView(Clone)/PlayMenuStateUIView(Clone)/SafeArea/Right Parent/Ready Button/Text;NAME;//;true&
+response: {"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.10449,"worldY":40.6799927,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}
+sent: 1630747540830;getText;{"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.1045,"worldY":40.679993,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}&
+response: BAŞLA
+sent: 1630747540887;tapObject;{"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.1045,"worldY":40.679993,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164};1&
+response: {"name":"Text","id":-29162,"x":1379,"y":41,"z":0,"mobileY":679,"type":"","enabled":true,"worldX":1379.10449,"worldY":40.6799927,"worldZ":0.0,"idCamera":14558,"parentId":-29154,"transformParentId":-29154,"transformId":-29164}
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748260966;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748261470;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748261975;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748262478;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748262981;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748263482;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748263988;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748264492;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748264993;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748265496;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748266001;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748266507;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748267012;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748267518;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748268023;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748268528;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748269034;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748269538;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748270040;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+Waiting for element where name contains //EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode....
+sent: 1630748270547;findObject;//EventCanvas(Clone)/ScoreBoardHUDTeamView(Clone)/SafeArea/GameMode/Mode;NAME;//;true&
+Exception thrown: java.net.SocketException: Connection reset
+sent: 1630748271067;getPNGScreenshot&
+Closing connection with server.
+sent: 1630748271071;closeConnection&

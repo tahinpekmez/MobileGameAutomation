@@ -1,0 +1,481 @@
+# Created at 2021-08-31T02:12:37.505
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-08-31T02:12:39.724
+Unexpected IOException: 8,1,ZulaTest,setup(ZulaTest),null,Could not create connection to 127.0.0.1:13000,null,Could not create connection to 127.0.0.1:13000,ZulaTest>BaseTest.setup:49 \00BB Connection Could not create connection to 127.0.0...,ro.altom.altunitytester.altUnityTesterExceptions.ConnectionException: Could not create connection to 127.0.0.1:13000\000ACaused by: java.lang.Throwable\000A
+
+
+# Created at 2021-08-31T02:12:39.739
+Unexpected IOException: 9,1,ZulaTest,beforeMethod(ZulaTest),null,null,null
+
+
+# Created at 2021-08-31T02:12:39.739
+Unexpected IOException: 9,1,ZulaTest,loadLevel(ZulaTest),null,null,null
+
+
+# Created at 2021-08-31T02:12:39.739
+Unexpected IOException: 9,1,ZulaTest,testMainPageLoadedCorrectly(ZulaTest),null,Could not create connection to 127.0.0.1:13000,null
+
+
+# Created at 2021-08-31T02:12:39.739
+Unexpected IOException: 9,1,ZulaTest,tearDown(ZulaTest),null,null,null
+
+
+# Created at 2021-08-31T02:12:39.739
+Unexpected IOException: 9,1,ZulaTest,tearDown(ZulaTest),null,null,null
+
+
+# Created at 2021-08-31T02:12:39.755
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:12:39.755
+Unexpected IOException with stream: sent: 1630365159755;getServerVersion&
+
+
+# Created at 2021-08-31T02:12:39.770
+Unexpected IOException with stream: java.lang.Throwable: Received empty response
+
+
+# Created at 2021-08-31T02:12:39.770
+Unexpected IOException with stream: Closing connection with server.
+
+
+# Created at 2021-08-31T02:12:39.770
+Unexpected IOException with stream: sent: 1630365159770;closeConnection&
+
+
+# Created at 2021-08-31T02:12:44.772
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:12:44.772
+Unexpected IOException with stream: sent: 1630365164772;getServerVersion&
+
+
+# Created at 2021-08-31T02:12:44.772
+Unexpected IOException with stream: java.lang.Throwable: Received empty response
+
+
+# Created at 2021-08-31T02:12:44.772
+Unexpected IOException with stream: Closing connection with server.
+
+
+# Created at 2021-08-31T02:12:44.772
+Unexpected IOException with stream: sent: 1630365164772;closeConnection&
+
+
+# Created at 2021-08-31T02:12:49.772
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:12:49.772
+Unexpected IOException with stream: sent: 1630365169772;getServerVersion&
+
+
+# Created at 2021-08-31T02:12:49.772
+Unexpected IOException with stream: java.lang.Throwable: Received empty response
+
+
+# Created at 2021-08-31T02:12:49.772
+Unexpected IOException with stream: Closing connection with server.
+
+
+# Created at 2021-08-31T02:12:49.772
+Unexpected IOException with stream: sent: 1630365169772;closeConnection&
+
+
+# Created at 2021-08-31T02:12:54.787
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:12:54.787
+Unexpected IOException with stream: sent: 1630365174787;getServerVersion&
+
+
+# Created at 2021-08-31T02:12:54.787
+Unexpected IOException with stream: java.lang.Throwable: Received empty response
+
+
+# Created at 2021-08-31T02:12:54.787
+Unexpected IOException with stream: Closing connection with server.
+
+
+# Created at 2021-08-31T02:12:54.803
+Unexpected IOException with stream: sent: 1630365174803;closeConnection&
+
+
+# Created at 2021-08-31T02:12:59.818
+Unexpected IOException with stream: Initializing connection to 127.0.0.1:13000
+
+
+# Created at 2021-08-31T02:12:59.818
+Unexpected IOException with stream: sent: 1630365179818;getServerVersion&
+
+
+# Created at 2021-08-31T02:13:00.365
+Unexpected IOException with stream: response: 1.6.4
+
+
+# Created at 2021-08-31T02:13:00.365
+Unexpected IOException with stream: sent: 1630365180365;loadScene;Main;true&
+
+
+# Created at 2021-08-31T02:13:00.397
+Unexpected IOException with stream: response: Ok
+
+
+# Created at 2021-08-31T02:13:00.506
+Unexpected IOException with stream: response: Scene Loaded
+
+
+# Created at 2021-08-31T02:13:00.506
+Unexpected IOException: 5,1,MainMenuTest,TestMainPageLoadedCorrectly(MainMenuTest),MainMenuTest,null,null
+
+
+# Created at 2021-08-31T02:13:00.506
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:00.506
+Unexpected IOException with stream: sent: 1630365180506;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:00.568
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:00.568
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:01.084
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:01.084
+Unexpected IOException with stream: sent: 1630365181084;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:01.115
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:01.115
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:01.631
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:01.631
+Unexpected IOException with stream: sent: 1630365181631;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:01.647
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:01.647
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:02.162
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:02.162
+Unexpected IOException with stream: sent: 1630365182162;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:02.162
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:02.162
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:02.678
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:02.678
+Unexpected IOException with stream: sent: 1630365182678;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:02.678
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:02.678
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:03.193
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:03.193
+Unexpected IOException with stream: sent: 1630365183193;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:03.193
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:03.193
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:03.709
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:03.709
+Unexpected IOException with stream: sent: 1630365183709;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:03.725
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:03.725
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:04.240
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:04.240
+Unexpected IOException with stream: sent: 1630365184240;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:04.256
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:04.256
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:04.771
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:04.771
+Unexpected IOException with stream: sent: 1630365184771;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:04.787
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:04.787
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:05.303
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:05.303
+Unexpected IOException with stream: sent: 1630365185303;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:05.334
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:05.334
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:05.837
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:05.837
+Unexpected IOException with stream: sent: 1630365185837;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:05.853
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:05.853
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:06.353
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:06.353
+Unexpected IOException with stream: sent: 1630365186353;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:06.373
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:06.373
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:06.887
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:06.887
+Unexpected IOException with stream: sent: 1630365186887;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:06.903
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:06.903
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:07.419
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:07.419
+Unexpected IOException with stream: sent: 1630365187419;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:07.434
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:07.434
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:07.934
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:07.934
+Unexpected IOException with stream: sent: 1630365187934;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:07.950
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:07.950
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:08.466
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:08.466
+Unexpected IOException with stream: sent: 1630365188466;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:08.466
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:08.466
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:08.981
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:08.981
+Unexpected IOException with stream: sent: 1630365188981;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:08.997
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:08.997
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:09.497
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:09.497
+Unexpected IOException with stream: sent: 1630365189497;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:09.513
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:09.513
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:10.028
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:10.028
+Unexpected IOException with stream: sent: 1630365190028;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:10.044
+Unexpected IOException with stream: response: error:notFound
+
+
+# Created at 2021-08-31T02:13:10.044
+Unexpected IOException with stream: Exception thrown: error:notFound
+
+
+# Created at 2021-08-31T02:13:10.554
+Unexpected IOException with stream: Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+
+
+# Created at 2021-08-31T02:13:10.554
+Unexpected IOException with stream: sent: 1630365190554;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&
+
+
+# Created at 2021-08-31T02:13:10.554
+Unexpected IOException with stream: Exception thrown: java.net.SocketException: Connection reset
+
+
+# Created at 2021-08-31T02:13:11.057
+Unexpected IOException: 8,1,MainMenuTest,TestMainPageLoadedCorrectly(MainMenuTest),null,Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds,null,Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds,MainMenuTest.TestMainPageLoadedCorrectly:37 \00BB WaitTimeOut Element //UICamera/L...,ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds\000A\0009at MainMenuTest.TestMainPageLoadedCorrectly(MainMenuTest.java:37)\000A
+
+
+# Created at 2021-08-31T02:13:11.057
+Unexpected IOException with stream: sent: 1630365191057;getPNGScreenshot&
+
+
+# Created at 2021-08-31T02:13:11.057
+Unexpected IOException: 8,1,MainMenuTest,tearDown(MainMenuTest),null,java.net.SocketException: Connection reset,null,java.net.SocketException: Connection reset,MainMenuTest>BaseTest.tearDown:64 \00BB Connection java.net.SocketException: Conne...,ro.altom.altunitytester.altUnityTesterExceptions.ConnectionException: java.net.SocketException: Connection reset\000ACaused by: java.net.SocketException: Connection reset\000A
+
+
+# Created at 2021-08-31T02:13:11.338
+Unexpected IOException with stream: Closing connection with server.
+
+
+# Created at 2021-08-31T02:13:11.338
+Unexpected IOException with stream: sent: 1630365191338;closeConnection&
+
+
+# Created at 2021-08-31T02:13:12.447
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

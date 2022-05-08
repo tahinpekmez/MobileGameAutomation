@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="0" name="GamePlayTest" time="56.576" errors="5" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.boot.library.path" value="C:\jdk-11.0.9_windows-x64_bin\jdk-11.0.9\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\murat\keytorc-zulapoc-mobile-07c2e43db155"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\murat\keytorc-zulapoc-mobile-07c2e43db155"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\murat\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk-11.0.9_windows-x64_bin\jdk-11.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\TDM-GCC-64\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\murat\AppData\Local\Programs\Microsoft VS Code;C:\BOOST\boost_1_73_0;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Users\murat\AppData\Local\Android\Sdk\tools;C:\Users\murat\AppData\Local\Android\Sdk\platform-tools;C:\Users\murat\AppData\Local\Android\Sdk\tools\bin;C:\Users\murat\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;C:\TDM-GCC-64\bin;C:\BOOST\boost_1_73_0;C:\Users\murat\.dotnet\tools;C:\Users\murat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\murat\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.1\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\murat"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="murat"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2 test"/>
+    <property name="java.home" value="C:\jdk-11.0.9_windows-x64_bin\jdk-11.0.9"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="GamePlayTest" name="testGamePlayDisplayedCorrectly" time="11.834">
+    <error message="Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds" type="ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException">ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds
+	at ro.altom.altunitytester.Commands.FindObject.AltWaitForObject.Execute(AltWaitForObject.java:42)
+	at ro.altom.altunitytester.AltUnityDriver.waitForObject(AltUnityDriver.java:498)
+	at pages.MainMenuPage.setCharacterName(MainMenuPage.java:56)
+	at GamePlayTest.loadLevel(GamePlayTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>Initializing connection to 127.0.0.1:13000
+sent: 1630243261455;getServerVersion&amp;
+response: 1.6.4
+sent: 1630243261551;loadScene;Main;true&amp;
+response: Ok
+response: Scene Loaded
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243262097;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243263070;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243263653;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243264251;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243264833;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243265385;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243265922;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243266459;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243266996;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243267530;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243268049;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243268617;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243269164;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243269712;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243270229;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243270745;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243271297;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243271818;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243272336;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243272857;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+</system-out>
+  </testcase>
+  <testcase classname="GamePlayTest" name="testPlayerDiesWhenObstacleNotAvoided" time="11.193">
+    <error message="Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds" type="ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException">ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds
+	at ro.altom.altunitytester.Commands.FindObject.AltWaitForObject.Execute(AltWaitForObject.java:42)
+	at ro.altom.altunitytester.AltUnityDriver.waitForObject(AltUnityDriver.java:498)
+	at pages.MainMenuPage.setCharacterName(MainMenuPage.java:56)
+	at GamePlayTest.loadLevel(GamePlayTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>sent: 1630243273382;loadScene;Main;true&amp;
+response: Ok
+response: Scene Loaded
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243273732;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243274416;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243274935;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243275472;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243276006;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243276556;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243277104;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243277638;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243278175;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243278710;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243279258;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243279810;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243280332;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243280869;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243281415;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243281933;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243282454;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243282995;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243283519;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243284039;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+</system-out>
+  </testcase>
+  <testcase classname="GamePlayTest" name="testGameCanBePausedAndResumed" time="11.046">
+    <error message="Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds" type="ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException">ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds
+	at ro.altom.altunitytester.Commands.FindObject.AltWaitForObject.Execute(AltWaitForObject.java:42)
+	at ro.altom.altunitytester.AltUnityDriver.waitForObject(AltUnityDriver.java:498)
+	at pages.MainMenuPage.setCharacterName(MainMenuPage.java:56)
+	at GamePlayTest.loadLevel(GamePlayTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>sent: 1630243284576;loadScene;Main;true&amp;
+response: Ok
+response: Scene Loaded
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243285023;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243285534;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243286056;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243286592;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243287125;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243287661;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243288183;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243288700;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243289237;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243289754;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243290322;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243290857;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243291403;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243291925;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243292459;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243292999;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243293520;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243294040;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243294562;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243295098;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+</system-out>
+  </testcase>
+  <testcase classname="GamePlayTest" name="testAvoidingObstacles" time="11.237">
+    <error message="Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds" type="ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException">ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds
+	at ro.altom.altunitytester.Commands.FindObject.AltWaitForObject.Execute(AltWaitForObject.java:42)
+	at ro.altom.altunitytester.AltUnityDriver.waitForObject(AltUnityDriver.java:498)
+	at pages.MainMenuPage.setCharacterName(MainMenuPage.java:56)
+	at GamePlayTest.loadLevel(GamePlayTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>sent: 1630243295621;loadScene;Main;true&amp;
+response: Ok
+response: Scene Loaded
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243296143;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243296664;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243297187;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243297719;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243298239;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243298761;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243299278;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243299797;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243300320;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243300860;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243301400;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243301922;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243302458;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243302979;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243303495;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243304140;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243304669;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243305203;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243305738;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243306320;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+</system-out>
+  </testcase>
+  <testcase classname="GamePlayTest" name="testGameCanBePausedAndStopped" time="11.266">
+    <error message="Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds" type="ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException">ro.altom.altunitytester.altUnityTesterExceptions.WaitTimeOutException: Element //UICamera/Loadout/CharZone/CharName still not found after 10.0 seconds
+	at ro.altom.altunitytester.Commands.FindObject.AltWaitForObject.Execute(AltWaitForObject.java:42)
+	at ro.altom.altunitytester.AltUnityDriver.waitForObject(AltUnityDriver.java:498)
+	at pages.MainMenuPage.setCharacterName(MainMenuPage.java:56)
+	at GamePlayTest.loadLevel(GamePlayTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>sent: 1630243306857;loadScene;Main;true&amp;
+response: Ok
+response: Scene Loaded
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243307523;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243308036;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243308552;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243309073;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243309605;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243310125;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243310660;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243311197;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243311728;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243312265;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243312784;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243313304;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243313824;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243314405;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243314941;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243315475;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243316010;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243316528;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243317048;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+Waiting for element where name contains //UICamera/Loadout/CharZone/CharName....
+sent: 1630243317603;findObject;//UICamera/Loadout/CharZone/CharName;NAME;//;true&amp;
+response: error:notFound
+Exception thrown: error:notFound
+</system-out>
+  </testcase>
+</testsuite>
