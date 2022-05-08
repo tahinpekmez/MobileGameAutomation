@@ -14,7 +14,7 @@ public class PropFileReader {
         props = new Properties();
         InputStream instream = null;
         ClassLoader loader = this.getClass().getClassLoader();
-        instream = loader.getResourceAsStream(filename);
+        instream = loader.get(filename);
         if (instream == null) {
             System.err.println("Unable to open properties file "+filename);
             return;
