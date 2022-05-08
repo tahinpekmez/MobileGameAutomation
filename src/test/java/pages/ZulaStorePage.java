@@ -39,11 +39,13 @@ public class ZulaStorePage extends BasePage {
         isTextCorrect(offerPrice, "₺36,99");
     }
 
-    public void setRemainingTime() {
+    public void setRemainingTime() throws ParseException {
         AltFindObjectsParameters par=new AltFindObjectsParameters.Builder(AltUnityDriver.By.NAME, "RemainingTime").build();
         AltWaitForObjectsParameters params = new AltWaitForObjectsParameters.Builder(par).withTimeout(10).build();
         this.remainingTime = getDriver().waitForObject(params);
-        isTextCorrect(remainingTime, "Bitiş: 19g");
+//        isTextCorrect(remainingTime, "Bitiş: 19g");
+//        isTextCorrect(remainingTime, reader.getProperty("timeRemaining"));
+        isTextCorrect(remainingTime, substractDate());
     }
 
     public void setBackButton() {
